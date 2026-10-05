@@ -100,7 +100,7 @@ const questions = [
   },
   {
     id: 'qA3',
-    text: '人が不当に扱われているのを見ると、その理不尽さに同情し、おかしいと声に出したり、周囲に伝えたくなる',
+    text: '悩み事があるときは、1人で抱えるのではなく、それを会話のネタにしたり周囲に伝えたくなる',
     axis: 'Alpha'
   },
   {
@@ -262,7 +262,7 @@ app.post('/result', (req, res) => {
   `);
 });
  
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
 });
