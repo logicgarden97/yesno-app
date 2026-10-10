@@ -174,5 +174,5 @@ if (eScore > iScore) {
 
 const PORT = process.env.PORT || 10000;
 app.Listen(PORT,"0.0.0.0",() => {
- console.log('server running on port ${PORT}`);
+ console.log(`server running on port ${PORT}`);
 });
